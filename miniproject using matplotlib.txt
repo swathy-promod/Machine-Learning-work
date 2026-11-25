@@ -1,0 +1,22 @@
+Mini Project – Student Performance Visualization
+Project Title: Student Performance Analysis Using Pandas and Matplotlib.
+Dataset
+Name	Python	Java	Database
+Anu	85	80	90
+Arun	90	85	95
+Meera	78	88	80
+John	65	70	75
+Rahul	95	92	90
+
+
+Complete Python Program
+import pandas as pdimport matplotlib.pyplot as plt# Creating student datasetdata = {    'Name': ['Anu', 'Arun', 'Meera', 'John', 'Rahul'],    'Python': [85, 90, 78, 65, 95],    'Java': [80, 85, 88, 70, 92],    'Database': [90, 95, 80, 75, 90]}# Creating DataFramedf = pd.DataFrame(data)print("STUDENT DETAILS")print(df)# Calculating average marksdf['Average'] = df[['Python', 'Java', 'Database']].mean(axis=1)print("\nSTUDENT AVERAGE")print(df[['Name', 'Average']])# Visualizing Python marksplt.bar(df['Name'], df['Python'], color='blue')plt.xlabel('Students')plt.ylabel('Python Marks')
+
+
+What Students Learn from This Project
+1. Creating datasets using Pandas.
+2. Calculating average marks.
+3. Creating bar charts.
+4. Creating line graphs.
+5. Understanding data visualization.
+6. Combining Pandas and Matplotlib.

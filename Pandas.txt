@@ -1,0 +1,16 @@
+21. Practice Questions for Students
+
+Programming Questions
+Create a Pandas Series containing five student marks.
+Create a DataFrame containing student name, age, and mark.
+Display only the Name column.
+Display the first three rows of a DataFrame.
+Find the total and average marks of students.
+Display students who scored more than 80.
+Sort student marks in descending order.
+Add a Grade column to an existing DataFrame.
+Delete a particular column from a DataFrame.
+Find and replace missing values in a DataFrame.
+
+
+

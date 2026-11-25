@@ -1,0 +1,55 @@
+For practical Machine Learning classes, use the same Student Performance Dataset for NumPy, Pandas, Matplotlib, and Seaborn.
+
+Ask students to perform the following:
+- Calculate average marks using NumPy.
+- Create a student DataFrame using Pandas.
+- Visualize student marks using Matplotlib.
+- Analyse the relationship between study hours, attendance, and marks using Seaborn.
+
+
+
+Practice Questions for Students
+
+Programming Questions
+1. Create a bar plot showing marks of five students.
+2. Create a line plot showing monthly sales.
+3. Create a scatter plot showing study hours and marks.
+4. Create a count plot showing the number of students in each department.
+5. Create a histogram showing the distribution of student marks.
+6. Create a box plot to identify outliers.
+7. Create a heatmap using student attendance and marks.
+8. Create a pair plot using three numerical columns.
+9. Create a regression plot showing study hours and marks.
+10. Change the colour palette of a graph.
+Advanced Level
+1. Read a CSV file using Pandas and visualize it using Seaborn.
+2. Perform EDA on a student performance dataset.
+3. Identify outliers using a box plot.
+4. Create a correlation heatmap.
+5. Compare student performance across different departments.
+6. Analyse the relationship between attendance and marks.
+
+
+
+Complete Practical Program – Student Performance Analysis Using Seaborn
+Project Title: Student Performance Visualization.
+Dataset
+Name	Study Hours	Attendance	Marks
+Anu	5	90	85
+Arun	7	95	92
+Meera	3	80	70
+John	2	65	55
+Rahul	8	98	96
+
+
+Python Program
+import pandas as pdimport seaborn as snsimport matplotlib.pyplot as plt# Creating datasetdata = {    'Name': ['Anu', 'Arun', 'Meera', 'John', 'Rahul'],    'StudyHours': [5, 7, 3, 2, 8],    'Attendance': [90, 95, 80, 65, 98],    'Marks': [85, 92, 70, 55, 96]}# Creating DataFramedf = pd.DataFrame(data)print("STUDENT DETAILS")print(df)# Bar Plotsns.barplot(x='Name', y='Marks', data=df)plt.title('Student Marks')plt.show()# Scatter Plotsns.scatterplot(x='StudyHours', y='Marks', data=df)plt.title('Study Hours vs Marks')plt.show()
+
+
+What Students Learn from This Program
+1. Creating datasets using Pandas.
+2. Creating statistical graphs using Seaborn.
+3. Comparing student marks.
+4. Understanding the relationship between study hours and marks.
+5. Analysing mark distribution.
+6. Understanding correlation between variables.

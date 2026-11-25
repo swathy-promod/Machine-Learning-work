@@ -1,0 +1,15 @@
+Recommended learning order for Machine Learning students:
+1. Python Basics
+2. NumPy
+3. Pandas
+4. Matplotlib
+5. Seaborn
+6. Data Preprocessing
+7. Exploratory Data Analysis (EDA)
+8. Scikit-learn
+9. Machine Learning Algorithms
+9	Supervised Machine Learning
+10	Unsupervised Machine Learning
+
+
+Teaching tip: After explaining Series and DataFrame, give students a CSV file containing student marks. Let them perform filtering, sorting, average calculation, and missing-value handling. This will help them understand how Pandas is actually used in Machine Learning.

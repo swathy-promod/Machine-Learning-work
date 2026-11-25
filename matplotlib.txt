@@ -1,0 +1,21 @@
+Practical Exercises for Students
+Basic Level
+1. Install Matplotlib and import pyplot.
+2. Create a line graph showing the marks of five students.
+3. Create a bar chart showing the sales of five products.
+4. Create a pie chart showing the number of students in different departments.
+5. Create a scatter plot showing study hours and marks.
+Intermediate Level
+6. Create a horizontal bar chart showing the population of five cities.
+7. Create a histogram showing the age distribution of students.
+8. Display two line graphs in the same figure.
+9. Add a title, X-axis label, and Y-axis label to a graph.
+10. Change the colour of bars in a bar chart.
+11. Add markers to a line graph.
+12. Save a graph as a PNG image.
+Advanced Practical Exercises
+13. Create a graph comparing sales in 2025 and 2026.
+14. Create two subplots in a single figure.
+15. Read student data from a CSV file using Pandas and visualize the marks using Matplotlib.
+16. Create a histogram to analyse student mark distribution.
+17. Visualize the relationship between attendance and marks using a scatter plot.

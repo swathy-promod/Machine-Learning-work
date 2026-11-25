@@ -1,0 +1,24 @@
+Mini Project – Student Performance Analysis Using Seaborn
+Project Title: Student Academic Performance Visualization.
+Dataset
+Name	Department	Study Hours	Attendance	Marks
+Anu	CS	5	90	85
+Arun	IT	7	95	92
+Meera	CS	3	80	70
+John	IT	2	65	55
+Rahul	CS	8	98	96
+Neha	Commerce	4	85	75
+Amal	Commerce	6	90	88
+
+
+Tasks
+1. Create a DataFrame using Pandas.
+2. Display the dataset.
+3. Create a bar plot showing student marks.
+4. Create a count plot showing department-wise student count.
+5. Create a scatter plot showing study hours and marks.
+6. Create a histogram showing mark distribution.
+7. Create a box plot to identify outliers.
+8. Create a heatmap showing correlation.
+9. Create a pair plot to understand relationships between variables.
+10. Write observations based on the graphs.

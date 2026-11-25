@@ -1,0 +1,27 @@
+Mini Project for Students
+Student Performance Analysis Using Pandas
+
+Create a student dataset containing:
+
+Student Name
+Roll Number
+Department
+Attendance
+Python Mark
+Java Mark
+Total Mark
+Average Mark
+Perform the following operations:
+
+Create a DataFrame.
+Display all student details.
+Calculate total marks.
+Calculate average marks.
+Find the highest-scoring student.
+Find the lowest-scoring student.
+Display students with an average above 80.
+Sort students based on total marks.
+Calculate department-wise average marks.
+Export the final result into a CSV file.
+Important Teaching Point: NumPy vs Pandas
+Since NumPy and Pandas are both important libraries in Machine Learning, students should understand their differences.
